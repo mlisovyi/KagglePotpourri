@@ -16,3 +16,10 @@ There are solutions to several small-scale kaggle competitions:
       * [Hyperparameter optimisation of LightGBM with F_1 score for parameter choosing](CostaRicanPovertyLevel/lighgbm-hyperoptimisation-with-f1-macro.ipynb). Aslo in https://www.kaggle.com/mlisovyi/lighgbm-hyperoptimisation-with-f1-macro.
       * [Feature engineering and LightGBM model training with F_1 score](CostaRicanPovertyLevel/feature-engineering-lighgbm-with-f1-macro.ipynb). Aslo in https://www.kaggle.com/mlisovyi/feature-engineering-lighgbm-with-f1-macro.
       * [A little study of why scores are small](CostaRicanPovertyLevel/why-are-scores-low.ipynb). Also in https://www.kaggle.com/mlisovyi/why-are-scores-low.
+      
+   * [PUBG Finish Placement Prediction](https://www.kaggle.com/c/pubg-finish-placement-prediction):
+      * LightGBM is used for modelling
+      * [pubg-survivor-kit.ipynb](PUBG/pubg-survivor-kit.ipynb): user-level model with no feature engineering at all.. Aslo available in https://www.kaggle.com/mlisovyi/pubg-survivor-kit/notebook.
+      * [eda-team-strategy-guide.ipynb](PUBG/eda-team-strategy-guide.ipynb): model interpretation using [SHAP](https://github.com/slundberg/shap) and [LIME](https://github.com/marcotcr/lime) packages. Also available in https://www.kaggle.com/mlisovyi/eda-team-strategy-guide
+      * [relativerank-of-predictions.ipynb](PUBG/relativerank-of-predictions.ipynb): demonstration that relative rank of tem placement within each game outperforms plain predction. Aslo available in https://www.kaggle.com/mlisovyi/relativerank-of-predictions.
+      * [pubg-team-guide.ipynb](PUBG/pubg-team-guide.ipynb): Team-level model training. Some Feature engineering. This implementation exploits the leak in the data and leads too good results. Private kernel :)
