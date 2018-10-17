@@ -1,6 +1,6 @@
 # KagglePotpourri
 
-There are solutions to several small-scale kaggle competitions:
+These are solutions to several small-scale kaggle competitions:
    * [Forest cover prediction (2018 edition)](https://www.kaggle.com/c/forest-cover-type-kernels-only):
       * Modeling relies on ExtraTrees + LightGBM + Ranfom Forest;
       * Voting classifier with evaluation in a nested CV loop is used;
