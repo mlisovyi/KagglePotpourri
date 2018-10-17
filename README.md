@@ -23,3 +23,7 @@ There are solutions to several small-scale kaggle competitions:
       * [eda-team-strategy-guide.ipynb](PUBG/eda-team-strategy-guide.ipynb): model interpretation using [SHAP](https://github.com/slundberg/shap) and [LIME](https://github.com/marcotcr/lime) packages. Also available in https://www.kaggle.com/mlisovyi/eda-team-strategy-guide
       * [relativerank-of-predictions.ipynb](PUBG/relativerank-of-predictions.ipynb): demonstration that relative rank of tem placement within each game outperforms plain predction. Aslo available in https://www.kaggle.com/mlisovyi/relativerank-of-predictions.
       * [pubg-team-guide.ipynb](PUBG/pubg-team-guide.ipynb): Team-level model training. Some Feature engineering. This implementation exploits the leak in the data and leads too good results. Private kernel :)
+
+   * [House Prices: Advanced Regression Techniques](https://www.kaggle.com/c/house-prices-advanced-regression-techniques):
+      * [EDA_feature_extraction.ipynb](HousePricing/EDA_feature_extraction.ipynb): extensive EDA, feature engineering and a comparison of various models with different feature-selection methods. 
+      * [Prepare_Submission.ipynb](HousePricing/Prepare_Submission.ipynb): Prepare submission based on the output of the script above.
